@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+img {
+  height: 100vh;
+  object-fit: cover;
+}
+#face-remover {
+  width: 290px;
+  height: 290px;
+  object-fit: contain;
+  border-radius: 100px;
+  /*  */
+  top: 0px;
+  left: 29%;
+  position: absolute;
+}

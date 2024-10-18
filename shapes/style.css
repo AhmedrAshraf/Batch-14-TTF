@@ -1,0 +1,48 @@
+body {
+  /* background-image: url(https://www.shutterstock.com/image-photo/beautiful-blurred-background-image-spring-260nw-2213392711.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-image: linear-gradient(to right, tomato, orange);
+
+}
+
+#square {
+  margin: 1px;
+  width: 150px;
+  height: 200px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+#circle {
+  width: 120px;
+  height: 150px;
+  margin: 2px 30px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+.rectangle {
+  width: 30px;
+  margin: 1px 15px;
+  height: 200px;
+  border-radius: 100px;
+}
+#row {
+  width: fit-content;
+  display: flex;
+  background-color: transparent;
+}
+div {
+  background-color: white;
+}
+div:hover {
+  background-color: tan;
+}
+
+.lefthand {
+  transform: rotate(45deg);
+  margin-top: -15px;
+}
+.righthand {
+  margin-top: -15px;
+  transform: rotate(135deg);
+}
